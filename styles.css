@@ -1,0 +1,121 @@
+.background {
+    background-color: rgb(201, 240, 206);
+}
+
+
+.articleBox {
+    background-color: white;
+    display: flex;
+    width: 38em;
+    height: 15em;
+    top: 30%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    margin-inline: auto;
+    border-radius: 15px;
+}
+
+img {
+    width: 15em;
+    height: 15em;
+    border-radius: 15px 0 0 15px;
+}
+
+.profile-pic {
+    margin-top: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+
+.share {
+    max-width: 15px;
+    max-height: 15px;
+    background-color: rgb(122, 120, 120);
+    color: black;
+    border-radius: 50%;
+    padding: 8px;
+    background: url("icon-share.svg");
+    background-repeat: no-repeat;
+    margin-left: 170px;
+    border: none;
+}
+
+.share:hover {
+    box-shadow: 1px 3px;
+    color: rgb(110, 108, 108);
+    background-color: rgb(189, 190, 190);
+}
+
+.share:active {
+    box-shadow: 1px 1px gray;
+}
+
+.text-div {
+    top: 8%;
+    left: 7%;
+    position: relative;
+}
+
+.title {
+    font-size: large;
+    text-align: left;
+    max-width: 330px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-weight: 200; 
+    color: rgb(85, 85, 85);
+}
+
+.info {
+    color: rgb(168, 163, 163);
+    text-align: left;
+    font-size: 12.5px;
+    max-width: 300px;
+}
+
+.name {
+    padding-left: 45px;
+    margin-top: -33px;
+    font-size: 12.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.date {
+    padding-left: 45px;
+    margin-top: -25px;
+    font-size: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.share-panel {
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    white-space: inherit;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(103, 103, 128);
+    margin-left: 200px;
+    margin-top: -50px;
+    border-radius: 10px; 
+}
+
+.share-item {
+    height: 15px;
+    width: 15px;
+    margin: 1px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.share-word {
+    width: auto;
+    color: white;
+    margin-left: 10px;
+    margin-right: 7px;
+}
